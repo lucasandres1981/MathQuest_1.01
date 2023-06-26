@@ -1,0 +1,60 @@
+1. ¿Cuál es el resultado de la operación 8 + 5 - 3 × 2?
+a) 8
+b) 6
+c) 7
+d) 12
+c
+2. ¿Cuál es el resultado de la división 48 ÷ 6 × 2?
+a) 8
+b) 4
+c) 16
+d) 12
+c
+3. Si Juan tiene 5 manzanas y le da 2 manzanas a Pedro, ¿cuántas manzanas le quedan a Juan?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+4. Si el precio de un libro es de $40 y hay un descuento del 20%, ¿cuánto pagará una persona por el libro?
+a) $48
+b) $32
+c) $36
+d) $24
+c
+5. ¿Cuál es el resultado de la operación (7 + 3) × 2 - 5?
+a) 18
+b) 17
+c) 19
+d) 15
+a
+6. Si un triángulo equilátero tiene un perímetro de 18 cm, ¿cuánto mide un lado del triángulo?
+a) 4 cm
+b) 6 cm
+c) 3 cm
+d) 9 cm
+c
+7. Si 8 personas pueden hacer un trabajo en 6 días, ¿cuántos días se tardarían 12 personas en hacer el mismo trabajo?
+a) 2 días
+b) 4 días
+c) 8 días
+d) 12 días
+b
+8. Si un artículo tiene un precio inicial de $80 y se aplica un aumento del 25%, ¿cuál es el nuevo precio del artículo?
+a) $100
+b) $85
+c) $90
+d) $75
+a
+9. ¿Cuál es el resultado de la operación 15 ÷ (3 + 2) × 4?
+a) 12
+b) 15
+c) 20
+d) 24
+a
+10. Si el área de un cuadrado es de 25 cm², ¿cuánto mide un lado del cuadrado?
+a) 5 cm
+b) 10 cm
+c) 15 cm
+d) 20 cm
+a

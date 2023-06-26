@@ -1,0 +1,60 @@
+1. ¿Cuál es la función trigonométrica que representa la relación entre el cateto opuesto y la hipotenusa en un triángulo rectángulo?
+a) Seno
+b) Coseno
+c) Tangente
+d) Secante
+a
+2. ¿Cuál es la función trigonométrica que representa la relación entre el cateto adyacente y la hipotenusa en un triángulo rectángulo?
+a) Seno
+b) Coseno
+c) Tangente
+d) Cotangente
+b
+3. ¿Cuál es la función trigonométrica que representa la relación entre el cateto opuesto y el cateto adyacente en un triángulo rectángulo?
+a) Seno
+b) Coseno
+c) Tangente
+d) Cotangente
+c
+4. ¿Cuál es la función trigonométrica recíproca del seno?
+a) Cosecante
+b) Coseno
+c) Tangente
+d) Secante
+a
+5. ¿Cuál es la función trigonométrica recíproca del coseno?
+a) Cosecante
+b) Seno
+c) Tangente
+d) Cotangente
+d
+6. ¿Cuál es la función trigonométrica recíproca de la tangente?
+a) Cosecante
+b) Seno
+c) Coseno
+d) Cotangente
+a
+7. ¿Cuál es la identidad trigonométrica que relaciona el seno y el coseno?
+a) Identidad pitagórica
+b) Identidad de la tangente
+c) Identidad del coseno
+d) Identidad del seno
+d
+8. ¿Cuál es la relación fundamental de la trigonometría que se aplica a cualquier triángulo, no solo a los rectángulos?
+a) Ley de senos
+b) Ley de cosenos
+c) Ley de tangentes
+d) Ley de catetos
+a
+9. ¿Cuál es la función inversa del seno?
+a) Arcoseno
+b) Arcocoseno
+c) Arcotangente
+d) Arcocotangente
+a
+10. ¿Cuál es la función inversa del coseno?
+a) Arcoseno
+b) Arcocoseno
+c) Arcotangente
+d) Arcocotangente
+b

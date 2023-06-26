@@ -1,0 +1,60 @@
+1. ¿Cuál es el resultado de la operación (4+6)×2/4?
+a) 5
+b) 6
+c) 7
+d) 8
+c
+2. Si un objeto cuesta $120 y se le aplica un descuento del 20%, ¿cuál es el precio final?
+a) $96
+b) $100
+c) $108
+d) $112
+a
+3. ¿Cuál es el valor de x en la ecuación 3x + 5 = 20?
+a) 3
+b) 5
+c) 7
+d) 9
+c
+4. Si un triángulo tiene una base de 8 cm y una altura de 6 cm, ¿cuál es su área?
+a) 16 cm²
+b) 24 cm²
+c) 32 cm²
+d) 48 cm²
+b
+5. Si un autobús viaja a una velocidad constante de 60 km/h durante 3 horas, ¿cuál es la distancia recorrida?
+a) 120 km
+b) 180 km
+c) 240 km
+d) 300 km
+d
+6. ¿Cuál es la raíz cuadrada de 144?
+a) 10
+b) 12
+c) 14
+d) 16
+b
+7. Si 3x + 7 = 22, ¿cuál es el valor de x?
+a) 5
+b) 7
+c) 8
+d) 9
+a
+8. ¿Cuál es el resultado de la operación 4! (factorial de 4)?
+a) 6
+b) 12
+c) 24
+d) 48
+c
+9. Si un artículo tiene un precio original de $80 y se le aplica un aumento del 15%, ¿cuál es el nuevo precio?
+a) $92
+b) $96
+c) $100
+d) $104
+b
+10. ¿Cuál es el resultado de la operación 2^3 (2 elevado a la 3)?
+a) 4
+b) 6
+c) 8
+d) 16
+c

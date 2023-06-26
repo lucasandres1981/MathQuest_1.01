@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.CategoriaController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="900.0">
+         <image>
+            <Image url="/img/categoria.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="696.0" layoutX="102.0" layoutY="34.0">
+         <image>
+            <Image url="/img/logo_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="696.0" layoutX="109.0" layoutY="26.0">
+         <image>
+            <Image url="/img/logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnregresar" layoutX="396.0" layoutY="726.0" mnemonicParsing="false" onAction="#regresarInicio" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAlgebra" layoutX="102.0" layoutY="346.0" mnemonicParsing="false" onAction="#categoriaAlgebra" prefHeight="37.0" prefWidth="151.0" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Álgebra" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCalculo" layoutX="652.0" layoutY="346.0" mnemonicParsing="false" onAction="#categoriaCalculo" prefHeight="37.0" prefWidth="141.0" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Cálculo" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAritmetica" layoutX="385.0" layoutY="346.0" mnemonicParsing="false" onAction="#categoriaAritmetica" prefHeight="37.0" prefWidth="141.0" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Aritmética" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnTrigonometria" layoutX="102.0" layoutY="618.0" mnemonicParsing="false" onAction="#categoriaTrigonometria" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Trigonometria" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEstadistica" layoutX="655.0" layoutY="618.0" mnemonicParsing="false" onAction="#categoriaEstadistica" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Estadística" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnGeometria" layoutX="385.0" layoutY="618.0" mnemonicParsing="false" onAction="#categoriaGeometria" prefHeight="37.0" prefWidth="141.0" style="-fx-background-color: #25211b; -fx-background-radius: 30;" text="Geometría" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="102.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/Álgebra.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAritmetica" fitHeight="150.0" fitWidth="200.0" layoutX="369.0" layoutY="176.0" onDragDetected="#categ" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/aritmetica.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="647.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/Cálculo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="102.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/Probabilidad.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="380.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/Geometría.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="647.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/Estadística.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

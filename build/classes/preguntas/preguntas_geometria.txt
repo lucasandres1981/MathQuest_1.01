@@ -1,0 +1,60 @@
+1. ¿Cuál de las siguientes figuras tiene cuatro lados iguales?
+a) Triángulo equilátero
+b) Trapecio
+c) Pentágono
+d) Hexágono
+a
+2. ¿Cuántos grados tiene un ángulo recto?
+a) 45°
+b) 90°
+c) 180°
+d) 360°
+b
+3. ¿Cuál es la fórmula para calcular el área de un círculo?
+a) A = πr²
+b) A = 2πr
+c) A = πd
+d) A = 2πd
+a
+4. ¿Cuál de las siguientes figuras tiene todos sus lados y ángulos iguales?
+a) Triángulo escaleno
+b) Triángulo isósceles
+c) Triángulo equilátero
+d) Triángulo rectángulo
+c
+5. ¿Cuántos lados tiene un heptágono?
+a) 5
+b) 6
+c) 7
+d) 8
+c
+6. ¿Cuál de las siguientes ecuaciones representa la fórmula del teorema de Pitágoras?
+a) a² + b² = c²
+b) a + b = c
+c) a² - b² = c²
+d) a + b + c = 180°
+a
+7. ¿Cuál es el nombre de una línea que divide un ángulo en dos ángulos iguales?
+a) Bisectriz
+b) Mediatriz
+c) Perpendicular
+d) Paralela
+a
+8. ¿Cuál es la fórmula para calcular el perímetro de un rectángulo?
+a) P = l + w
+b) P = 2l + 2w
+c) P = 2(l + w)
+d) P = lw
+c
+9. ¿Cuál de las siguientes figuras tiene todos sus lados de diferente longitud?
+a) Cuadrado
+b) Rectángulo
+c) Triángulo equilátero
+d) Trapecio
+d
+10. ¿Cuál es la relación entre el diámetro y el radio de un círculo?
+a) El diámetro es el doble del radio
+b) El diámetro es la mitad del radio
+c) El diámetro es igual al radio
+d) El diámetro es el triple del radio
+a

@@ -1,0 +1,60 @@
+1. ¿Cuál de los siguientes es un medida de tendencia central?
+a) Varianza
+b) Desviación estándar
+c) Mediana
+d) Rango
+c
+2. ¿Cuál de las siguientes es una medida de dispersión?
+a) Media
+b) Moda
+c) Cuartil
+d) Rango intercuartílico
+d
+3. ¿Qué medida estadística describe la variabilidad de un conjunto de datos en relación con la media?
+a) Rango
+b) Varianza
+c) Mediana
+d) Moda
+b
+4. ¿Qué medida estadística indica la tendencia central de un conjunto de datos?
+a) Rango
+b) Desviación estándar
+c) Media aritmética
+d) Coeficiente de correlación
+c
+5. ¿Cuál de las siguientes opciones es una medida de posición en estadística?
+a) Rango
+b) Mediana
+c) Coeficiente de correlación
+d) Desviación estándar
+b
+6. ¿Cuál de las siguientes medidas es más sensible a los valores extremos en un conjunto de datos?
+a) Mediana
+b) Moda
+c) Media aritmética
+d) Desviación estándar
+c
+7. ¿Cuál de las siguientes opciones es una medida de asimetría?
+a) Rango
+b) Media aritmética
+c) Desviación estándar
+d) Coeficiente de asimetría
+d
+8. ¿Qué medida estadística indica la relación lineal entre dos variables en un conjunto de datos?
+a) Media aritmética
+b) Moda
+c) Covarianza
+d) Coeficiente de correlación
+d
+9. ¿Cuál de las siguientes opciones es una medida de variabilidad relativa?
+a) Media aritmética
+b) Rango intercuartílico
+c) Mediana
+d) Coeficiente de variación
+d
+10. ¿Cuál de las siguientes opciones describe la forma de la distribución de datos?
+a) Mediana
+b) Media aritmética
+c) Moda
+d) Coeficiente de curtosis
+d

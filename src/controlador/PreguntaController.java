@@ -50,6 +50,9 @@ public class PreguntaController implements Initializable {
     private TextField txtMostrarPuntaje;
     private ToggleGroup toggleGroupRespuestas;
 
+    private int preguntasCorrectas;
+    private int preguntasIncorrectas;
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         toggleGroupRespuestas = new ToggleGroup();
@@ -81,10 +84,10 @@ public class PreguntaController implements Initializable {
     public void mostrarPregunta(Pregunta pregunta) {
         preguntaTextArea.setText(pregunta.getPregunta());
 
-        String opciones = "a) " + pregunta.getOpcionA() + "\n"
-                + "b) " + pregunta.getOpcionB() + "\n"
-                + "c) " + pregunta.getOpcionC() + "\n"
-                + "d) " + pregunta.getOpcionD();
+        String opciones = "- " + pregunta.getOpcionA() + "\n"
+                + "- " + pregunta.getOpcionB() + "\n"
+                + "- " + pregunta.getOpcionC() + "\n"
+                + "- " + pregunta.getOpcionD();
         opcionesTextArea.setText(opciones);
     }
 
@@ -98,10 +101,14 @@ public class PreguntaController implements Initializable {
             if (respuestaSeleccionada.equalsIgnoreCase(preguntas.get(preguntaActualIndex).getRespuestaCorrecta())) {
                 System.out.println("Respuesta correcta");
                 preguntaTextArea.setText("¡Respuesta correcta!");
+                calcularPuntaje(); // Calcular el puntaje después de responder
             } else {
                 System.out.println("Respuesta incorrecta");
                 preguntaTextArea.setText("¡Respuesta incorrecta!");
+                calcularPuntaje(); // Calcular el puntaje después de responder
             }
+
+            mostrarPuntaje(preguntasCorrectas, preguntasIncorrectas); // Mostrar el puntaje actualizado
         }
     }
 
@@ -111,7 +118,33 @@ public class PreguntaController implements Initializable {
         if (preguntaActualIndex < preguntas.size()) {
             mostrarPregunta(preguntas.get(preguntaActualIndex));
         } else {
-            // Aquí se puede porner un mensaje para cuando se hayan mostrado todas las preguntas
+            // El jugador ha respondido todas las preguntas
+            System.out.println("TRIVIA FINALIZADA");
+            preguntaTextArea.setText("TRIVIA FINALIZADA");
+
+            // Redirigir a la vista de puntuación
+            try {
+                String rutaFXML = "/vista/puntuacion.fxml";
+                String fxmlFile = rutaFXML;
+
+                InputStream inputStream = getClass().getResourceAsStream(fxmlFile);
+                if (inputStream == null) {
+                    throw new FileNotFoundException("No se pudo encontrar el archivo FXML: " + fxmlFile);
+                }
+
+                FXMLLoader loader = new FXMLLoader();
+                Parent puntuacionRoot = loader.load(inputStream);
+                Scene puntuacionScene = new Scene(puntuacionRoot);
+
+                PuntuacionController puntuacionController = loader.getController();
+                puntuacionController.mostrarPuntaje(preguntasCorrectas, preguntasIncorrectas);
+
+                Stage stage = (Stage) btnSiguienteRespuesta.getScene().getWindow();
+                stage.setScene(puntuacionScene);
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -140,25 +173,24 @@ public class PreguntaController implements Initializable {
         }
     }
 
-    @FXML
     private void calcularPuntaje() {
-        int puntaje = 0;
-
-        for (Pregunta pregunta : preguntas) {
-            RadioButton selectedRadioButton = (RadioButton) toggleGroupRespuestas.getSelectedToggle();
-            if (selectedRadioButton != null) {
-                String respuestaSeleccionada = selectedRadioButton.getUserData().toString();
-                if (respuestaSeleccionada.equalsIgnoreCase(pregunta.getRespuestaCorrecta())) {
-                    puntaje++;
-                }
+        Pregunta pregunta = preguntas.get(preguntaActualIndex);
+        RadioButton selectedRadioButton = (RadioButton) toggleGroupRespuestas.getSelectedToggle();
+        if (selectedRadioButton != null) {
+            String respuestaSeleccionada = selectedRadioButton.getUserData().toString();
+            if (respuestaSeleccionada.equalsIgnoreCase(pregunta.getRespuestaCorrecta())) {
+                preguntasCorrectas++;
+            } else {
+                preguntasIncorrectas++;
             }
         }
-
-        mostrarPuntaje(puntaje);
     }
 
-    private void mostrarPuntaje(int puntaje) {
-        txtMostrarPuntaje.setText("Puntaje: " + puntaje);
+    private void mostrarPuntaje(int preguntasCorrectas, int preguntasIncorrectas) {
+        txtMostrarPuntaje.setText("Preguntas correctas: " + preguntasCorrectas + " | " +
+                "Preguntas incorrectas: " + preguntasIncorrectas);
+        System.out.println("Preguntas correctas: " + preguntasCorrectas);
+        System.out.println("Preguntas incorrectas: " + preguntasIncorrectas);
     }
 
     @FXML
@@ -180,4 +212,5 @@ public class PreguntaController implements Initializable {
     private void opcionD(ActionEvent event) {
         String respuestaSeleccionada = toggleGroupRespuestas.getSelectedToggle().getUserData().toString();
     }
+
 }

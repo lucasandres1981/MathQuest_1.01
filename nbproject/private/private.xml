@@ -5,7 +5,13 @@
         <group>
             <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/vista/categoria.fxml</file>
             <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/controlador/PreguntaController.java</file>
+            <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/controlador/PuntuacionController.java</file>
+            <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/controlador/Main.java</file>
+            <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/vista/pregunta.fxml</file>
             <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/controlador/CategoriaController.java</file>
+            <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/preguntas/preguntas_algebra.txt</file>
+            <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/vista/puntuacion.fxml</file>
+            <file>file:/C:/Users/LUCAS%20MURILLO/Documents/NetBeansProjects/MathQuest_1.0/src/controlador/InicioController.java</file>
         </group>
     </open-files>
 </project-private>

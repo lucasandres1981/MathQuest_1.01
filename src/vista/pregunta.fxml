@@ -75,7 +75,7 @@
             </RadioButton>
          </children>
       </AnchorPane>
-      <TextField fx:id="txtMostrarPuntaje" alignment="CENTER" editable="false" layoutX="280.0" layoutY="700.0" onAction="#calcularPuntaje" prefHeight="42.0" prefWidth="341.0">
+      <TextField fx:id="txtMostrarPuntaje" alignment="CENTER" editable="false" layoutX="280.0" layoutY="658.0" prefHeight="84.0" prefWidth="341.0">
          <font>
             <Font size="14.0" />
          </font></TextField>

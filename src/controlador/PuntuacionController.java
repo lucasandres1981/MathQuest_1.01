@@ -55,7 +55,7 @@ public class PuntuacionController implements Initializable {
 
     void mostrarPuntaje(int preguntasCorrectas, int preguntasIncorrectas) {
         mensajeTextArea.setText("""
-                                MATCQUEST
+                                MATHQUEST
                                 \u00a1Felicitaciones!
                                 Tu puntaje es:
                                 Preguntas Correctas: """ + preguntasCorrectas + "\nPreguntas Incorrectas: " + preguntasIncorrectas);
